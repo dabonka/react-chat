@@ -24,10 +24,6 @@
             "error",
             "unix"
         ],
-        "quotes": [
-            1,
-            "double"
-        ],
         "semi": [
             "error",
             "always"
