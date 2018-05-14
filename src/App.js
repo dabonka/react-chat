@@ -4,6 +4,8 @@ import Drawer from 'material-ui/Drawer';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
+import SearchBar from 'material-ui-search-bar';
+import ChatList from './ChatList';
 
 const drawerWidth = 320;
 
@@ -64,7 +66,17 @@ class App extends React.Component {
             paper: classes.drawerPaper,
           }}
         >
-          <div className={classes.toolbar} />
+
+          <SearchBar
+            onChange={() => console.log('onChange')}
+            onRequestSearch={() => console.log('onRequestSearch')}
+            style={{
+              margin: '0 auto',
+              maxWidth: 800
+            }}
+          />
+
+          <ChatList />
 
         </Drawer>
 
