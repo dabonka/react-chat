@@ -10,7 +10,8 @@
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-scripts": "1.1.1",
-    "typeface-roboto": "0.0.54"
+    "typeface-roboto": "0.0.54",
+    "classnames": "^2.2.5"
   },
   "scripts": {
     "start": "react-scripts start",
